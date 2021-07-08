@@ -3151,6 +3151,20 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 400px) {
+
+			.spotlights > section > .image {
+				height: 35vh;
+				min-height: 15em;
+				background-size: contain;
+				margin-left: -1em;
+			}
+
+			.spotlights > section > .content {
+				padding: 3em 2em 1em 2em ;
+			}
+
+		}
 /* Table */
 
 	.table-wrapper {
